@@ -12,4 +12,8 @@ app.listen(PORT,()=>{
     
 })
 
+app.get('/',(req,res),()=>{
+    res.send("Tfou 3lik");
+})
+
 connectDB();
